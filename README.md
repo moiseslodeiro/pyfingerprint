@@ -11,6 +11,12 @@ First install the packages for building:
 
     ~$ sudo apt-get install git devscripts
 
+You also need to have the setuptools installed.
+For Python 2 use:
+    ~$ sudo apt-get install python-setuptools
+For Python 3 use:
+    ~$ sudo apt-get install python3-setuptools
+
 Than clone this repository:
 
     ~$ git clone https://github.com/bastianraschke/pyfingerprint.git
